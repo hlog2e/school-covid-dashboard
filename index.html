@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style type="text/css">
+      @import url("./style.css");
+    </style>
+
+    <title>금천고 코로나 알림 시스템</title>
+  </head>
+  <body class="body">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <div style="margin-left: 15px">
+          <img src="logo.png" width="80" height="80" />
+        </div>
+
+        <div class="myTitle">금천고 코로나 알림 시스템</div>
+        <form class="d-flex">
+          <div>
+            <div class="date">날짜 들어갈 자리</div>
+            <div class="week">요일 들어갈 자리</div>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <div class="contanier1">
+      <div class="weather">
+        <div>
+          <img src="location.png" width="50" height="50" />
+          <div class="locationText">Geumcheon-HS</div>
+        </div>
+        <div class="weatherTempInt">00 ℃</div>
+        <div class="weatherTempText">불러오는중</div>
+      </div>
+      <div class="dday">
+        <div class="ddayText">중간고사 D-30일</div>
+      </div>
+      <div class="nowTime">
+        <div class="nowTimeText">00시 00분 00초</div>
+      </div>
+      <div class="lunch">
+        <div class="lunchTitle">오늘의 급식</div>
+        <div class="lunchItems">
+          <div class="lunchItem Item1">나이스 서버로부터</div>
+          <div class="lunchItem Item2">급식정보를 불러올 수 없거나,</div>
+          <div class="lunchItem Item3">오늘은 중식이 제공되지 않습니다.</div>
+          <div class="lunchItem Item4"></div>
+          <div class="lunchItem Item5"></div>
+          <div class="lunchItem Item6"></div>
+          <div class="lunchItem Item7"></div>
+          <div class="lunchItem Item8"></div>
+          <div class="lunchItem Item9"></div>
+          <div class="lunchItem Item10"></div>
+        </div>
+      </div>
+    </div>
+    <div class="contanier2">
+      <div class="covidPng">
+        <img src="covid.png" width="950" height="1150" />
+      </div>
+      <div class="covidCounter">
+        <div class="covidCounterTitle">확진자수</div>
+        <div class="covidCounterInt">0000 명</div>
+        <div class="covidCounterInfo">(매일 오전 10시 경 업데이트 됩니다.)</div>
+        <div class="covidCounterBottomText">마스크를 꼭 착용해 주세요!!</div>
+      </div>
+      <div class="schedule">
+        <div class="scheduleTitle">10월 학사일정</div>
+        <div class="scheduleItem Item1" style="color: red">3일 개천절</div>
+        <div class="scheduleItem Item2" style="color: red">4일 대체공휴일</div>
+        <div class="scheduleItem Item3" style="color: red">9일 한글날</div>
+        <div class="scheduleItem Item4" style="color: red">11일 대체공휴일</div>
+        <div class="scheduleItem Item5">26~29일 중간고사</div>
+      </div>
+      <div class="dinner">
+        <div class="dinnerTitle">오늘의 석식</div>
+        <div class="dinnerItems">
+          <div class="dinnerItem Item1">나이스 서버로부터</div>
+          <div class="dinnerItem Item2">급식정보를 불러올 수 없거나,</div>
+          <div class="dinnerItem Item3">오늘은 석식이 제공되지 않습니다.</div>
+          <div class="dinnerItem Item4"></div>
+          <div class="dinnerItem Item5"></div>
+          <div class="dinnerItem Item6"></div>
+          <div class="dinnerItem Item7"></div>
+          <div class="dinnerItem Item8"></div>
+          <div class="dinnerItem Item9"></div>
+          <div class="dinnerItem Item10"></div>
+        </div>
+      </div>
+    </div>
+    <div class="contanier3">
+      <div class="covidCard item1">
+        <div class="covid title">충북 확진자</div>
+        <div class="covid bar">_____________</div>
+        <div class="covid body">+ 000 명</div>
+      </div>
+      <div class="covidCard item2">
+        <div class="covid title">전제 확진자</div>
+        <div class="covid bar">_____________</div>
+        <div class="covid body">+ 000 명</div>
+        <div></div>
+      </div>
+
+      <div class="covidCard item3">
+        <div class="covid title">격리해제</div>
+        <div class="covid bar">_____________</div>
+        <div class="covid body">+ 000 명</div>
+        <div></div>
+      </div>
+      <div class="covidCard item4">
+        <div class="covid title">서울 확진자</div>
+        <div class="covid bar">_____________</div>
+        <div class="covid body">+ 000 명</div>
+        <div></div>
+      </div>
+      <div class="covidCard item5">
+        <div class="covid title">사망</div>
+        <div class="covid bar">_____________</div>
+        <div class="covid body">+ 000 명</div>
+        <div></div>
+      </div>
+
+      <div class="nextLunch">
+        <div class="nextLunchTitle">내일 급식</div>
+        <div class="nextLunchItems">
+          <div class="nextLunchItem Item1">나이스 서버로부터</div>
+          <div class="nextLunchItem Item2">급식정보를 불러올 수 없거나,</div>
+          <div class="nextLunchItem Item3">
+            내일은 급식이 제공되지 않습니다.
+          </div>
+          <div class="nextLunchItem Item4"></div>
+          <div class="nextLunchItem Item5"></div>
+          <div class="nextLunchItem Item6"></div>
+          <div class="nextLunchItem Item7"></div>
+          <div class="nextLunchItem Item8"></div>
+          <div class="nextLunchItem Item9"></div>
+          <div class="nextLunchItem Item10"></div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-bottom">
+      <div class="bottomBox">
+        <div class="bottomNotice">
+          10월부터 12세~17세 코로나 백신(화이자) 접종이 시작됩니다.
+        </div>
+        <div class="madeBy">
+          Made By HongRok
+          <div class="madeByEmail">mail : a@hongrok.net</div>
+          >
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
