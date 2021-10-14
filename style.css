@@ -275,6 +275,13 @@
   font-size: 20pt;
   font-weight: bold;
 }
+.serverInfo {
+  text-align: end;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #808080;
+}
 .bottomBox {
   width: auto;
   height: 65px;
