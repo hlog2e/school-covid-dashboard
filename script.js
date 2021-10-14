@@ -1,5 +1,5 @@
 let todayDate = getDate()[0];
-//let todayDate = 05; //For Test
+//let todayDate = 18; //For Test
 
 function getDate() {
   let dateDiv = document.getElementsByClassName("date")[0];
