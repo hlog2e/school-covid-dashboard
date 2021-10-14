@@ -73,7 +73,7 @@
   margin-left: 26.5%;
   margin-top: 100px;
   margin-bottom: 0px;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
   border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
 }
 .ddayText {
@@ -88,7 +88,7 @@
   margin-left: 11%;
   margin-top: 18px;
   margin-bottom: 0px;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
   border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
 }
 .nowTimeText {
@@ -101,7 +101,7 @@
   height: 600px;
   margin-top: 30px;
   margin-right: 30px;
-  background-color: #f4f4f4;
+  background-color: #eef7fa;
   border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
 }
 .lunchTitle {
@@ -203,7 +203,7 @@
   height: 600px;
   margin-top: 110px;
   margin-right: 30px;
-  background-color: #f4f4f4;
+  background-color: #eef7fa;
   border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
 }
 .dinnerTitle {
@@ -274,7 +274,7 @@
   height: 600px;
   margin-top: 40px;
   margin-right: 30px;
-  background-color: #f4f4f4;
+  background-color: #eef7fa;
   border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
 }
 .nextLunchTitle {
