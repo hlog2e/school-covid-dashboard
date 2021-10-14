@@ -315,9 +315,10 @@
   font-size: 29pt;
   font-weight: bold;
   margin-right: 20px;
-  margin-top: 2px;
+  font-family: AppleSFBold;
 }
 .madeByEmail {
   margin-top: -10px;
   font-size: 15pt;
+  font-family: AppleSFBold;
 }
