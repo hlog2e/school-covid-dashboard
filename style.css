@@ -26,21 +26,21 @@
   justify-content: space-between;
 }
 .myTitle {
-  font-size: 56pt;
+  font-size: 80pt;
   font-weight: bold;
-  margin-left: -2%;
+  margin-left: -1%;
 }
 .dateWeek {
   padding: 10px;
 }
 .date {
-  font-size: 25pt;
+  font-size: 35pt;
   font-weight: bold;
 }
 .week {
   text-align: center;
   font-weight: bold;
-  font-size: 25pt;
+  font-size: 35pt;
 }
 .contanier1 {
   height: 550px;
@@ -177,6 +177,7 @@
   text-align: center;
   font-size: 57pt;
   font-weight: bold;
+  color: white;
 }
 .schedule {
   width: 730px;
