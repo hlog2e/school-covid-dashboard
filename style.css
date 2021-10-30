@@ -19,10 +19,19 @@
 .body {
   font-family: NanumBold;
 }
+.navBar {
+  width: auto;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+}
 .myTitle {
   font-size: 56pt;
   font-weight: bold;
   margin-left: -2%;
+}
+.dateWeek {
+  padding: 10px;
 }
 .date {
   font-size: 25pt;
@@ -187,7 +196,7 @@
 .scheduleItem {
   margin-left: 40px;
   font-size: 33pt;
-  font-family: Nanum;
+  font-family: NanumBold;
 }
 .scheduleTitle.Title2 {
   margin-top: 75px;
