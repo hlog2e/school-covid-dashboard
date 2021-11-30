@@ -133,9 +133,9 @@ function getNextDayMeal() {
     });
 }
 function changeDday() {
-  let dday = getDate()[0] - 30 - 20;
+  let dday = getDate()[0] - 20;
   let ddayDiv = document.getElementsByClassName("ddayText")[0];
-  ddayDiv.innerText = "기말고사" + dday;
+  ddayDiv.innerText = "기말고사 D" + dday;
 }
 function getCovidInc() {
   let covidCounterDiv = document.getElementsByClassName("covidCounterInt")[0];
