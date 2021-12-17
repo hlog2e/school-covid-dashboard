@@ -1,19 +1,7 @@
 @font-face {
-  font-family: "AppleSFBold";
-  src: url("./font/SF-Pro-Rounded-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
   font-family: "NanumBold";
   src: url("./font/NanumSquareRoundEB.ttf") format("opentype");
   font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Nanum";
-  src: url("./font/NanumSquareRoundB.ttf") format("opentype");
-  font-weight: normal;
   font-style: normal;
 }
 .body {
