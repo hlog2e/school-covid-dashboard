@@ -178,7 +178,7 @@ getTime();
 getWeather();
 getMeal();
 getNextDayMeal();
-changeDday();
+//changeDday();
 getCovidInc();
 
 changeTime = setInterval(function () {
@@ -197,5 +197,5 @@ mainReset = setInterval(function () {
   getDate();
   getMeal();
   getNextDayMeal();
-  changeDday();
+  //changeDday();
 }, 10800000);

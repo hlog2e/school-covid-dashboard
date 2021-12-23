@@ -70,8 +70,9 @@
   margin-left: 26.5%;
   margin-top: 100px;
   margin-bottom: 0px;
-  background-color: #f4f4f4;
+
   border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
+  opacity: 100;
 }
 .ddayText {
   text-align: center;
@@ -222,6 +223,9 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
+  background-image: url(xmas-b.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .covidCard {
   margin-top: 2.8%;
