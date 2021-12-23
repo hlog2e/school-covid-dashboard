@@ -35,6 +35,9 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
+  background-image: url(xmas.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .weather {
   width: 300px;
